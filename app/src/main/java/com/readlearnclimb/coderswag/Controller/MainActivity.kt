@@ -3,6 +3,7 @@ package com.readlearnclimb.coderswag.Controller
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import com.readlearnclimb.coderswag.Adapters.CategoryAdapter
 import com.readlearnclimb.coderswag.Model.Category
 import com.readlearnclimb.coderswag.R
@@ -19,5 +20,6 @@ class MainActivity : AppCompatActivity() {
 
         adapter = CategoryAdapter(this, DataService.categories)
         categoryListView.adapter = adapter
+
     }
 }
