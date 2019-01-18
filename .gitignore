@@ -5,6 +5,11 @@
 ### AndroidStudio ###
 # Covers files to be ignored for android development using Android Studio.
 
+# Drawables ###
+app/src/main/res/drawable*
+
+
+
 # Built application files
 *.apk
 *.ap_
